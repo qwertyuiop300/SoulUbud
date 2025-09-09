@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #f9f9fc;
+}
+
+.heading {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+}
+.subheading {
+  font-family: "Raleway", sans-serif;
+  font-weight: 0;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.paragraf {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1, 2rem;
+  text-align: left;
+  line-height: 28px;
+  opacity: 80%;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left {
+  flex: 1;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  font-weight: 700;
+  color: #7a4dfc;
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-family: raleway, sans-serif;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0 0 10px;
+}
+
+p {
+  color: #888;
+  margin: 10px 0;
+}
+
+.container .left .logo span {
+  color: black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.form input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+button {
+  padding: 12px;
+  background-color: #7a4dfc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signup {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup a {
+  color: #7a4dfc;
+  text-decoration: none;
+}
+
+.right {
+  flex: 1;
+  background: linear-gradient(135deg, #a879fc, #7a4dfc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background-image: url("dreamina-2025-08-05-4793-A\ peaceful\ and\ spiritual\ scene\ in\ Ubud\,\ ...\ \(1\).jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.right img {
+  max-width: 80%;
+  height: auto;
+}
